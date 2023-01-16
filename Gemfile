@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    # Enable the following wdm for local envir test
     #gem 'wdm', '>=0.1.0'
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -22,3 +23,8 @@ group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
+#local envir ruby test
+#cd /d F:Personal Website\ChuanhuiLiu.github.io
+#bundle install
+#bundle exec jekyll serve

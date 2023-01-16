@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Trustworthy conditional density estimation via CVAE
+description: Assumptotic guarantee with distribution-free data assumption
+img: assets/img/pycover.png
 importance: 1
-category: work
+category: Python
 ---
 
 Every project has a beautiful feature showcase page.
