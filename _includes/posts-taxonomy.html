@@ -23,15 +23,15 @@
 {% for i in (1..items_max) reversed %}
   {% for taxonomy in include.taxonomies %}
     {% if taxonomy[1].size == i %}
-      <section id="{{ taxonomy[0] | slugify }}" class="taxonomy__section">
+      <section id="{{ taxonomy[0] | slugify }}" class="taxonomy__section" style="border-bottom: 0pt;">
         <h2 class="archive__subtitle">{{ taxonomy[0] }}</h2>
         <div class="entries-{{ entries_layout }}">
           {% for post in taxonomy.last %}
             {% include archive-single.html type=entries_layout %}
           {% endfor %}
         </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
     {% endif %}
   {% endfor %}
 {% endfor %}
+<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>

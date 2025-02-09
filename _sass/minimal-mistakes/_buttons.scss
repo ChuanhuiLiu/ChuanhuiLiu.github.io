@@ -7,6 +7,19 @@
    ========================================================================== */
 
 .btn {
+  /* button colors */
+  $buttoncolors:
+  (primary, $primary-color),
+  (inverse, #fff),
+  (light-outline, transparent),
+  (success, $success-color),
+  (warning, $warning-color),
+  (danger, $danger-color),
+  (info, $info-color),
+  (facebook, $facebook-color),
+  (twitter, $twitter-color),
+  (linkedin, $linkedin-color);
+
   /* default */
   display: inline-block;
   margin-bottom: 0.25em;
@@ -28,38 +41,34 @@
     margin-inline-start: -0.5em; /* override for hidden text*/
   }
 
-  /* button colors */
-  $buttoncolors:
-  (primary, $primary-color),
-  (inverse, #fff),
-  (light-outline, transparent),
-  (success, $success-color),
-  (warning, $warning-color),
-  (danger, $danger-color),
-  (info, $info-color),
-  (facebook, $facebook-color),
-  (twitter, $twitter-color),
-  (linkedin, $linkedin-color);
+
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
-      @include yiq-contrasted($color);
       @if ($buttoncolor == inverse) {
+        @include yiq-contrasted($color);
         border: 1px solid $border-color;
       }
       @if ($buttoncolor == light-outline) {
-        border: 1px solid #fff;
-      }
-
-      &:visited {
+        border-radius: -15pt !important;
+        color: $primary-color !important;
+        border: 2px solid $border-color ;
+        border-top: 2px solid $border-color ;
+        border-left: 2px solid $border-color ;
+        border-right: 2px solid $border-color ;
+        border-bottom: 5px solid $background-color;
+        }
+      @else{
         @include yiq-contrasted($color);
       }
+      }
+
 
       &:hover {
         @include yiq-contrasted(mix(#000, $color, 20%));
       }
     }
-  }
+  
 
   /* fills width of parent container */
   &--block {
@@ -75,9 +84,6 @@
   &--disabled {
     pointer-events: none;
     cursor: not-allowed;
-    filter: alpha(opacity=65);
-    box-shadow: none;
-    opacity: 0.65;
   }
 
   /* extra large button */
@@ -93,5 +99,9 @@
   /* small button */
   &--small {
     font-size: $type-size-7;
+  }
+  /* active button with vanishing bottom border*/
+  &--tab-inactive {
+    border-bottom: 2px solid $border-color !important; /* Highlight active tab */
   }
 }

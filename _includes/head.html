@@ -17,7 +17,33 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" id="theme_source">
+{% if site.minimal_mistakes_skin2 %}
+  <link rel="stylesheet" href="{{ '/assets/css/main2.css' | relative_url }}" id="theme_source_2">
+  <script>
+    if (sessionStorage.getItem('theme') === null) {
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        sessionStorage.setItem('theme', 'dark');
+      }
+      else{
+        sessionStorage.setItem('theme', 'light');
+      }
+    }
+
+    let theme = sessionStorage.getItem('theme');
+    if(theme === "dark"){
+      document.getElementById('theme_source').setAttribute('rel', 'stylesheet alternate'); 
+      sessionStorage.setItem('theme', 'dark');
+    }
+    else
+    {
+      document.getElementById('theme_source_2').setAttribute('rel', 'stylesheet alternate'); 
+      sessionStorage.setItem('theme', 'light');
+    }
+
+  </script>
+  
+{% endif %}
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
@@ -26,3 +52,14 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<style>
+{% if page.header.text_color %}
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__meta,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .btn {
+  color: {{page.header.text_color}} !important;
+}
+{% endif %}
+</style>

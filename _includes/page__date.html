@@ -1,6 +1,43 @@
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-{% if page.last_modified_at %}
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time class="dt-published" datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: date_format }}</time></p>
-{% elsif page.date %}
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time></p>
-{% endif %}
+<div>
+  <span style="float: left;">
+  {% if page.last_modified_at %}
+    <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time class="dt-published" datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: date_format }}</time></p>
+  {% elsif page.date %}
+    <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time></p>
+  </span>
+  <span style="float: right;">
+    <a href="#" class="as">BACK TO TOP&nbsp; <i class="fas fa-arrow-circle-up"></i></a>
+  </span>
+  {% endif %}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const backToTopBtn = document.querySelector(".back-to-top");
+
+      // Smooth scroll to the top of the navigation bar
+      backToTopBtn.addEventListener("click", function (event) {
+          event.preventDefault();
+          window.scrollTo({
+              top: 0,
+              behavior: "smooth"
+          });
+      });
+  });
+</script>
+<style>
+.as{
+padding-right: 0px; /* Adjust spacing from the right edge */
+margin-right: 0;
+display: inline-block;
+padding: 7px 10px; /* Small padding for a compact box */
+color: white;
+text-decoration: none;
+border-radius: 5px;
+border: 1px solid #0056b3;
+font-size: 10px;
+cursor: pointer;
+/*white-space: nowrap;  Prevents button from stretching */
+}
+</style>

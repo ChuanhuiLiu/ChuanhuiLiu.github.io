@@ -3,43 +3,62 @@
    ========================================================================== */
 
 /* Colors */
-$dark-gray: #0e2431 !default;
+$dark-gray: #4f0000 !default;
 $background-color: #e8d5b7 !default;
-$text-color: #000 !default;
-$muted-text-color: $dark-gray !default;
-$primary-color: #fc3a52 !default;
-$border-color: mix(#000, $background-color, 20%) !default;
-$code-background-color: mix(#fff, $background-color, 20%) !default;
-$code-background-color-dark: mix(#000, $background-color, 10%) !default;
-$form-background-color: mix(#fff, $background-color, 15%) !default;
+$text-color: 	#1c0505 !default;
+$muted-text-color: #820000 !default;
+$primary-color: 	#dd4a00  !default;
 $footer-background-color: #f9b248 !default;
-$link-color: mix(#000, $primary-color, 10%) !default;
+
+$border-color: $footer-background-color !default;
+$code-background-color: mix(#8e8a8a, $background-color, 30%) !default;  
+$code-background-color-dark: mix(#838386, $background-color, 20%) !default;  
+$link-color: mix(#ffffff, $primary-color, 10%) !default;
 $link-color-hover: mix(#fff, $link-color, 25%) !default;
-$link-color-visited: mix(#000, $link-color, 25%) !default;
-$masthead-link-color: $text-color !default;
+$link-color-visited: mix(#820000, $link-color, 75%) !default;
+$masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
-$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 10%) !default;
 
 /* notices */
 $notice-background-mix: 75% !default;
 
 /* sunrise syntax highlighting (base16) */
-$base00: #1d1f21 !default;
-$base01: #282a2e !default;
-$base02: #373b41 !default;
-$base03: #969896 !default;
-$base04: #b4b7b4 !default;
-$base05: #c5c8c6 !default;
-$base06: #e0e0e0 !default;
-$base07: #ffffff !default;
-$base08: #cc6666 !default;
-$base09: #de935f !default;
-$base0a: #f0c674 !default;
-$base0b: #b5bd68 !default;
-$base0c: #8abeb7 !default;
-$base0d: #81a2be !default;
-$base0e: #b294bb !default;
-$base0f: #a3685a !default;
+$code-background-color: #fff !default;
+$code-background-color-dark: #000 !default;
+$form-background-color: mix(#fff, $background-color, 15%) !default;
+// $base00: #1d1f21 !default;
+// $base01: #282a2e !default;
+// $base02: #373b41 !default;
+// $base03: #969896 !default;
+// $base04: #b4b7b4 !default;
+// $base05: #c5c8c6 !default;
+// $base06: #e0e0e0 !default;
+// $base07: #ffffff !default;
+// $base08: #cc6666 !default;
+// $base09: #de935f !default;
+// $base0a: #f0c674 !default;
+// $base0b: #b5bd68 !default;
+// $base0c: #8abeb7 !default;
+// $base0d: #81a2be !default;
+// $base0e: #b294bb !default;
+// $base0f: #a3685a !default;
+$base00: #000e03 !default; /* Default text */
+$base01: #3b3b3b !default; /* Generic - Error,Errors, warnings */
+$base02: #3b3b3b !default; /* Error background */
+$base03: #3b3b3b !default; /* Strings, General text */
+$base04: #706e6e !default; /* Deleted background */
+$base05: #7600c4 !default; /* Operator, Function & tracebacks */
+$base06: #ff0000 !default; /* Outputs & grays */
+$base07: #01d4ff !default; /* Prompts, heading text */
+$base08: #005cc5 !default; /* Bold text, emphasis */
+$base09: #ff0000 !default; /* Types, classes */
+$base0a: #ff01bb !default; /* Literals - Numbers, integers */
+$base0b: #00fb3b !default; /* regex , comments*/
+$base0c: #000000 !default; /* Normal text color */
+$base0d: rgb(0, 56, 238) !default; /* Variables & attributes */
+$base0e: #804f01 !default; /* Symbols, builtins */
+$base0f: #f6f8fa !default; /* Generic command background */
 
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,

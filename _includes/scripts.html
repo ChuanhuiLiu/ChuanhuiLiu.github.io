@@ -26,3 +26,37 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+  function dark_mode_btn_click() {
+    var node1 = document.getElementById('theme_source');
+    var node2 = document.getElementById('theme_source_2');
+    if(node1.getAttribute('rel')=='stylesheet'){
+      node2.setAttribute('rel', 'stylesheet');
+      setTimeout(function(){
+        node1.setAttribute('rel', 'stylesheet alternate');
+      }, 10);
+      sessionStorage.setItem('theme', 'dark');
+      sessionStorage.setItem('icon', 'fa-moon'); // Store icon state
+    }else{
+      node1.setAttribute('rel', 'stylesheet');
+      setTimeout(function(){
+        node2.setAttribute('rel', 'stylesheet alternate');
+      }, 10);
+      sessionStorage.setItem('theme', 'light');
+      sessionStorage.setItem('icon', 'fa-sun'); // Store icon state
+    }
+    var savedIcon = sessionStorage.getItem('icon'); 
+    var icon = document.querySelector('.dark_mode_btn');
+    icon.classList.toggle('fa-sun');
+    icon.classList.toggle('fa-moon');
+    return false;
+}
+</script>
+<style>
+.dark_mode_btn_click{
+  font-size: 30px; /* Adjust icon size */
+  cursor: pointer; /* Makes it clickable */
+  border-left: 2px solid #ccc; /*add a vertical line*/
+}
+</style>

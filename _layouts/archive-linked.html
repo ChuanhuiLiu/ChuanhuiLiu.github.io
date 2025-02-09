@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+        <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %} style=
+        "border-bottom: 2px solid;  
+        padding-bottom: 0.1em;">
+          Posts by 
+          <a href="../posts" class="btn btn--light-outline btn--large btn--disabled date-btn" 
+          id="date-btn" style="padding: 0.1em 0.2em 0.2em 0.2em; margin-bottom: -5pt">
+          Date
+        </a>
+          <a href="../categories" class="btn btn--light-outline btn--large btn--tab-inactive category-btn" 
+            id="category-btn" style="padding: 0.1em 0.2em 0.2em 0.2em; margin-bottom: -5pt">
+            Category
+          </a> 
+          <a href="../tags" class="btn btn--light-outline btn--large btn--tab-inactive tag-btn" 
+            id="tag-btn" style="padding: 0.1em 0.2em 0.2em 0.2em; margin-bottom: -5pt">
+            Tag
+          </a>
+        </h1>
+    {% endunless %}
+    {{ content }}
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let dateBtn = document.querySelector(".date-btn");
+    let categoryBtn = document.querySelector(".category-btn");
+    let tagBtn = document.querySelector(".tag-btn");
+    // Restore the saved state from sessionStorage
+    let activeButton = sessionStorage.getItem("activeButton");
+    if (activeButton) {
+      setActive(activeButton);
+    }
+    // Add event listeners to ensure buttons trigger click events
+    dateBtn.addEventListener("click", function () { setActive("date"); });
+    categoryBtn.addEventListener("click", function () { setActive("category"); });
+    tagBtn.addEventListener("click", function () { setActive("tag"); });
+    function removeClassIfExists(element, className) {
+      if (element.classList.contains(className)) {
+        element.classList.remove(className);
+      }
+    }
+    function setActive(active) {
+      // Remove active state from all buttons
+      removeClassIfExists(dateBtn, "btn--disabled");
+      removeClassIfExists(dateBtn, "btn--tab-inactive");
+      removeClassIfExists(categoryBtn, "btn--disabled");
+      removeClassIfExists(categoryBtn, "btn--tab-inactive");
+      removeClassIfExists(tagBtn, "btn--disabled");
+      removeClassIfExists(tagBtn, "btn--tab-inactive");
+
+      // Activate the clicked button
+      if (active === "date") {
+        dateBtn.classList.add("btn--disabled");
+        categoryBtn.classList.add("btn--tab-inactive");
+        tagBtn.classList.add("btn--tab-inactive")
+        sessionStorage.setItem("activeButton", "date");
+      } else if (active === "category") {
+        categoryBtn.classList.add("btn--disabled");
+        dateBtn.classList.add("btn--tab-inactive");
+        tagBtn.classList.add("btn--tab-inactive")
+        sessionStorage.setItem("activeButton", "category");
+      } else {
+        tagBtn.classList.add("btn--disabled");
+        categoryBtn.classList.add("btn--tab-inactive");
+        dateBtn.classList.add("btn--tab-inactive")
+        sessionStorage.setItem("activeButton", "tag");
+      }
+
+
+    }
+  });
+</script>

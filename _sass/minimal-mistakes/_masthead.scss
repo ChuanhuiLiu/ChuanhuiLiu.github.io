@@ -14,7 +14,7 @@
   &__inner-wrap {
     @include clearfix;
     margin-inline: auto;
-    padding: 1em;
+    padding: 0.5em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -37,7 +37,11 @@
     }
   }
 }
-
+.dark_mode_btn {
+  font-size: $type-size-4; /* Adjust icon size */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
 .site-logo img {
   max-height: 2rem;
 }
@@ -89,3 +93,4 @@
     font-weight: 700;
   }
 }
+

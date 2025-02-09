@@ -11,6 +11,9 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
+        {% if site.minimal_mistakes_skin2 %}
+        <li><i class="fas fa-fw fa-sun dark_mode_btn" aria-hidden="true" onclick="dark_mode_btn_click()"></i></li>
+      {% endif %}
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
@@ -18,7 +21,7 @@
                 href="{{ link.url | relative_url }}"
                 {% if link.description %} title="{{ link.description }}"{% endif %}
                 {% if link.target %} target="{{ link.target }}"{% endif %}
-              >{{ link.title }}</a>
+              ><strong>{{ link.title }}</strong></a>
             </li>
           {%- endfor -%}
         </ul>

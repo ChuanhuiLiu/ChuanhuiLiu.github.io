@@ -5,7 +5,7 @@
 #main {
   @include clearfix;
   margin-inline: auto;
-  padding-inline: 1em;
+  padding-inline: 0.75em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -47,7 +47,7 @@ body {
 
   .page__inner-wrap {
     float: inline-start;
-    margin-top: 1em;
+    margin-top: 0.5em;
     margin-inline: 0;
     width: 100%;
     clear: both;
@@ -80,10 +80,12 @@ body {
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 }
 
 .page__content {
+  text-align: justify;
+  word-spacing: -0.04em;
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
@@ -99,6 +101,7 @@ body {
 			-moz-transition: opacity 0.2s ease-in-out 0.1s;
 			-o-transition: opacity 0.2s ease-in-out 0.1s;
 			transition: opacity 0.2s ease-in-out 0.1s;
+      display: none;  /* remove this to add link to heading of markdown*/
 		}
 
 		&:hover .header-link {
@@ -109,7 +112,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.85em;
   }
 
   /* paragraph indents */
@@ -242,7 +245,7 @@ body {
   padding: 2px 5px;
   color: #fff;
   font-family: $caption-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-8;
   background: #000;
   text-align: end;
   z-index: 5;
@@ -264,7 +267,7 @@ body {
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
+  margin-top: 1em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
 
@@ -348,7 +351,7 @@ body {
 }
 
 .taxonomy__section {
-  margin-bottom: 2em;
+  margin-bottom: 0em;
   padding-bottom: 1em;
 
   &:not(:last-child) {
@@ -361,11 +364,11 @@ body {
 
   .archive__subtitle {
     clear: both;
-    border: 0;
+    border-bottom: 5px solid $border-color;
   }
 
   + .taxonomy__section {
-    margin-top: 2em;
+    margin-top: 1em;
   }
 }
 
@@ -382,13 +385,13 @@ body {
   display: grid;
   grid-column-gap: 2em;
   grid-template-columns: repeat(2, 1fr);
-  margin: 1.414em 0;
+  margin: 1em 0;
   padding: 0;
   font-size: 0.75em;
   list-style: none;
 
   @include breakpoint($large) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   a {
@@ -401,7 +404,7 @@ body {
     justify-content: space-between;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 2px solid $border-color;
   }
 }
 
