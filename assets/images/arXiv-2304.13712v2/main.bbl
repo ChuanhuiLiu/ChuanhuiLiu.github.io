@@ -1,0 +1,853 @@
+\begin{thebibliography}{100}
+
+\bibitem{ChatGPTI90:online}
+Chatgpt is banned in italy over privacy concerns - the new york times.
+\newblock
+  \url{https://www.nytimes.com/2023/03/31/technology/chatgpt-italy-ban.html}.
+\newblock (Accessed on 04/23/2023).
+
+\bibitem{codex}
+Openai codex.
+\newblock \url{https://openai.com/blog/openai-codex}.
+
+\bibitem{OpenAIsG17:online}
+Openai's gpt-3 language model: A technical overview.
+\newblock \url{https://lambdalabs.com/blog/demystifying-gpt-3#1}.
+\newblock (Accessed on 03/02/2023).
+
+\bibitem{Pricing84:online}
+Pricing.
+\newblock \url{https://openai.com/pricing}.
+\newblock (Accessed on 03/02/2023).
+
+\bibitem{alajrami2022does}
+Ahmed Alajrami and Nikolaos Aletras.
+\newblock How does the pre-training objective affect what large language models
+  learn about linguistic properties?
+\newblock In {\em Proceedings of the 60th Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)}, pages 131--147, 2022.
+
+\bibitem{ananthaswamy2023ai}
+Anil Ananthaswamy.
+\newblock In ai, is bigger always better?
+\newblock {\em Nature}, 615(7951):202--205, 2023.
+
+\bibitem{austin2021program}
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski,
+  David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, et~al.
+\newblock Program synthesis with large language models.
+\newblock {\em arXiv preprint arXiv:2108.07732}, 2021.
+
+\bibitem{bai2022constitutional}
+Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion,
+  Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon,
+  et~al.
+\newblock Constitutional ai: Harmlessness from ai feedback.
+\newblock {\em arXiv preprint arXiv:2212.08073}, 2022.
+
+\bibitem{berant2013semantic}
+Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang.
+\newblock Semantic parsing on freebase from question-answer pairs.
+\newblock In {\em Proceedings of the 2013 conference on empirical methods in
+  natural language processing}, pages 1533--1544, 2013.
+
+\bibitem{beukeboom2019stereotypes}
+Camiel~J Beukeboom and Christian Burgers.
+\newblock How stereotypes are shared through language: a review and
+  introduction of the aocial categories and stereotypes communication (scsc)
+  framework.
+\newblock {\em Review of Communication Research}, 7:1--37, 2019.
+
+\bibitem{bojar-etal-2016-findings}
+Ond{\v{r}}ej Bojar, Rajen Chatterjee, Christian Federmann, Yvette Graham, Barry
+  Haddow, Matthias Huck, Antonio Jimeno~Yepes, Philipp Koehn, Varvara
+  Logacheva, Christof Monz, Matteo Negri, Aur{\'e}lie N{\'e}v{\'e}ol, Mariana
+  Neves, Martin Popel, Matt Post, Raphael Rubino, Carolina Scarton, Lucia
+  Specia, Marco Turchi, Karin Verspoor, and Marcos Zampieri.
+\newblock Findings of the 2016 conference on machine translation.
+\newblock In {\em Proceedings of the First Conference on Machine Translation:
+  Volume 2, Shared Task Papers}, pages 131--198, Berlin, Germany, August 2016.
+  Association for Computational Linguistics.
+
+\bibitem{bommasani2021opportunities}
+Rishi Bommasani, Drew~A Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney
+  von Arx, Michael~S Bernstein, Jeannette Bohg, Antoine Bosselut, Emma
+  Brunskill, et~al.
+\newblock On the opportunities and risks of foundation models.
+\newblock {\em arXiv preprint arXiv:2108.07258}, 2021.
+
+\bibitem{borkan2019nuanced}
+Daniel Borkan, Lucas Dixon, Jeffrey Sorensen, Nithum Thain, and Lucy Vasserman.
+\newblock Nuanced metrics for measuring unintended bias with real data for text
+  classification.
+\newblock In {\em Companion proceedings of the 2019 world wide web conference},
+  pages 491--500, 2019.
+
+\bibitem{snli:emnlp2015}
+Samuel~R Bowman, Gabor Angeli, Christopher Potts, and Christopher~D Manning.
+\newblock A large annotated corpus for learning natural language inference.
+\newblock {\em arXiv preprint arXiv:1508.05326}, 2015.
+
+\bibitem{bowman2022measuring}
+Samuel~R Bowman, Jeeyoon Hyun, Ethan Perez, Edwin Chen, Craig Pettit, Scott
+  Heiner, Kamile Lukosuite, Amanda Askell, Andy Jones, Anna Chen, et~al.
+\newblock Measuring progress on scalable oversight for large language models.
+\newblock {\em arXiv preprint arXiv:2211.03540}, 2022.
+
+\bibitem{brown2020language}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla
+  Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+  et~al.
+\newblock Language models are few-shot learners.
+\newblock {\em Advances in neural information processing systems},
+  33:1877--1901, 2020.
+
+\bibitem{buolamwini2018gender}
+Joy Buolamwini and Timnit Gebru.
+\newblock Gender shades: Intersectional accuracy disparities in commercial
+  gender classification.
+\newblock In {\em Conference on fairness, accountability and transparency},
+  pages 77--91. PMLR, 2018.
+
+\bibitem{chen2021evaluating}
+Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de~Oliveira
+  Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg
+  Brockman, et~al.
+\newblock Evaluating large language models trained on code.
+\newblock {\em arXiv preprint arXiv:2107.03374}, 2021.
+
+\bibitem{chen2022pali}
+Xi~Chen, Xiao Wang, Soravit Changpinyo, AJ~Piergiovanni, Piotr Padlewski,
+  Daniel Salz, Sebastian Goodman, Adam Grycner, Basil Mustafa, Lucas Beyer,
+  et~al.
+\newblock Pali: A jointly-scaled multilingual language-image model.
+\newblock {\em arXiv preprint arXiv:2209.06794}, 2022.
+
+\bibitem{chi2021xlm}
+Zewen Chi, Shaohan Huang, Li~Dong, Shuming Ma, Saksham Singhal, Payal Bajaj,
+  Xia Song, and Furu Wei.
+\newblock Xlm-e: Cross-lingual language model pre-training via electra.
+\newblock {\em arXiv preprint arXiv:2106.16138}, 2021.
+
+\bibitem{choi2018quac}
+Eunsol Choi, He~He, Mohit Iyyer, Mark Yatskar, Wen-tau Yih, Yejin Choi, Percy
+  Liang, and Luke Zettlemoyer.
+\newblock Quac: Question answering in context.
+\newblock {\em arXiv preprint arXiv:1808.07036}, 2018.
+
+\bibitem{chowdhery2022palm}
+Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra,
+  Adam Roberts, Paul Barham, Hyung~Won Chung, Charles Sutton, Sebastian
+  Gehrmann, et~al.
+\newblock Palm: Scaling language modeling with pathways.
+\newblock {\em arXiv preprint arXiv:2204.02311}, 2022.
+
+\bibitem{chung2022scaling}
+Hyung~Won Chung, Le~Hou, Shayne Longpre, Barret Zoph, Yi~Tay, William Fedus,
+  Eric Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, et~al.
+\newblock Scaling instruction-finetuned language models.
+\newblock {\em arXiv preprint arXiv:2210.11416}, 2022.
+
+\bibitem{clark2020electra}
+Kevin Clark, Minh-Thang Luong, Quoc~V Le, and Christopher~D Manning.
+\newblock Electra: Pre-training text encoders as discriminators rather than
+  generators.
+\newblock {\em arXiv preprint arXiv:2003.10555}, 2020.
+
+\bibitem{clark2018think}
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa
+  Schoenick, and Oyvind Tafjord.
+\newblock Think you have solved question answering? try arc, the ai2 reasoning
+  challenge.
+\newblock {\em arXiv preprint arXiv:1803.05457}, 2018.
+
+\bibitem{cobbe2021training}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+  Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+  et~al.
+\newblock Training verifiers to solve math word problems.
+\newblock {\em arXiv preprint arXiv:2110.14168}, 2021.
+
+\bibitem{dai2023chataug}
+Haixing Dai, Zhengliang Liu, Wenxiong Liao, Xiaoke Huang, Zihao Wu, Lin Zhao,
+  Wei Liu, Ninghao Liu, Sheng Li, Dajiang Zhu, et~al.
+\newblock Chataug: Leveraging chatgpt for text data augmentation.
+\newblock {\em arXiv preprint arXiv:2302.13007}, 2023.
+
+\bibitem{devlin2018bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock {\em arXiv preprint arXiv:1810.04805}, 2018.
+
+\bibitem{ding2022gpt}
+Bosheng Ding, Chengwei Qin, Linlin Liu, Lidong Bing, Shafiq Joty, and Boyang
+  Li.
+\newblock Is gpt-3 a good data annotator?
+\newblock {\em arXiv preprint arXiv:2212.10450}, 2022.
+
+\bibitem{dodge2022measuring}
+Jesse Dodge, Taylor Prewitt, Remi Tachet~des Combes, Erika Odmark, Roy
+  Schwartz, Emma Strubell, Alexandra~Sasha Luccioni, Noah~A Smith, Nicole
+  DeCario, and Will Buchanan.
+\newblock Measuring the carbon intensity of ai in cloud instances.
+\newblock In {\em 2022 ACM Conference on Fairness, Accountability, and
+  Transparency}, pages 1877--1894, 2022.
+
+\bibitem{du2022shortcut}
+Mengnan Du, Fengxiang He, Na~Zou, Dacheng Tao, and Xia Hu.
+\newblock Shortcut learning of large language models in natural language
+  understanding: A survey.
+\newblock {\em arXiv preprint arXiv:2208.11857}, 2022.
+
+\bibitem{du2022glam}
+Nan Du, Yanping Huang, Andrew~M Dai, Simon Tong, Dmitry Lepikhin, Yuanzhong Xu,
+  Maxim Krikun, Yanqi Zhou, Adams~Wei Yu, Orhan Firat, et~al.
+\newblock Glam: Efficient scaling of language models with mixture-of-experts.
+\newblock In {\em International Conference on Machine Learning}, pages
+  5547--5569. PMLR, 2022.
+
+\bibitem{duchene2023benchmark}
+Corentin Duchene, Henri Jamet, Pierre Guillaume, and Reda Dehak.
+\newblock A benchmark for toxic comment classification on civil comments
+  dataset.
+\newblock {\em arXiv preprint arXiv:2301.11125}, 2023.
+
+\bibitem{fu2023gptscore}
+Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, and Pengfei Liu.
+\newblock Gptscore: Evaluate as you desire.
+\newblock {\em arXiv preprint arXiv:2302.04166}, 2023.
+
+\bibitem{geirhos2020shortcut}
+Robert Geirhos, J{\"o}rn-Henrik Jacobsen, Claudio Michaelis, Richard Zemel,
+  Wieland Brendel, Matthias Bethge, and Felix~A Wichmann.
+\newblock Shortcut learning in deep neural networks.
+\newblock {\em Nature Machine Intelligence}, 2(11):665--673, 2020.
+
+\bibitem{geva2021did}
+Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth, and Jonathan
+  Berant.
+\newblock Did aristotle use a laptop? a question answering benchmark with
+  implicit reasoning strategies.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  9:346--361, 2021.
+
+\bibitem{gilardi2023chatgpt}
+Fabrizio Gilardi, Meysam Alizadeh, and Ma{\"e}l Kubli.
+\newblock Chatgpt outperforms crowd-workers for text-annotation tasks.
+\newblock {\em arXiv preprint arXiv:2303.15056}, 2023.
+
+\bibitem{goyal2022news}
+Tanya Goyal, Junyi~Jessy Li, and Greg Durrett.
+\newblock News summarization and evaluation in the era of gpt-3.
+\newblock {\em arXiv preprint arXiv:2209.12356}, 2022.
+
+\bibitem{gupta2017deepfix}
+Rahul Gupta, Soham Pal, Aditya Kanade, and Shirish Shevade.
+\newblock Deepfix: Fixing common c language errors by deep learning.
+\newblock In {\em Proceedings of the aaai conference on artificial
+  intelligence}, volume~31, 2017.
+
+\bibitem{hendrycks2020measuring}
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn
+  Song, and Jacob Steinhardt.
+\newblock Measuring massive multitask language understanding.
+\newblock {\em arXiv preprint arXiv:2009.03300}, 2020.
+
+\bibitem{hoffmann2022training}
+Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor
+  Cai, Eliza Rutherford, Diego de~Las Casas, Lisa~Anne Hendricks, Johannes
+  Welbl, Aidan Clark, et~al.
+\newblock Training compute-optimal large language models.
+\newblock {\em arXiv preprint arXiv:2203.15556}, 2022.
+
+\bibitem{hu2021lora}
+Edward~J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean
+  Wang, Lu~Wang, and Weizhu Chen.
+\newblock Lora: Low-rank adaptation of large language models.
+\newblock {\em arXiv preprint arXiv:2106.09685}, 2021.
+
+\bibitem{hua2022fine}
+Hang Hua, Xingjian Li, Dejing Dou, Cheng-Zhong Xu, and Jiebo Luo.
+\newblock Fine-tuning pre-trained language models with noise stability
+  regularization.
+\newblock {\em arXiv preprint arXiv:2206.05658}, 2022.
+
+\bibitem{izacard_few-shot_2022}
+Gautier Izacard, Patrick Lewis, Maria Lomeli, Lucas Hosseini, Fabio Petroni,
+  Timo Schick, Jane Dwivedi-Yu, Armand Joulin, Sebastian Riedel, and Edouard
+  Grave.
+\newblock Few-shot {Learning} with {Retrieval} {Augmented} {Language} {Models}.
+\newblock 2022.
+
+\bibitem{jiaochatgpt}
+Wenxiang Jiao and WenxuanWang Jen-tseHuang~XingWang ZhaopengTu.
+\newblock Is chatgpt a good translator? yes with gpt-4 as the engine.
+
+\bibitem{joshi2017triviaqa}
+Mandar Joshi, Eunsol Choi, Daniel~S Weld, and Luke Zettlemoyer.
+\newblock Triviaqa: A large scale distantly supervised challenge dataset for
+  reading comprehension.
+\newblock {\em arXiv preprint arXiv:1705.03551}, 2017.
+
+\bibitem{kaplan2020scaling}
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom~B Brown, Benjamin Chess, Rewon
+  Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei.
+\newblock Scaling laws for neural language models.
+\newblock {\em arXiv preprint arXiv:2001.08361}, 2020.
+
+\bibitem{kedia2022fie}
+Akhil Kedia, Mohd~Abbas Zaidi, and Haejun Lee.
+\newblock Fie: Building a global probability space by leveraging early fusion
+  in encoder for open-domain question answering.
+\newblock {\em arXiv preprint arXiv:2211.10147}, 2022.
+
+\bibitem{kirkpatrick2017overcoming}
+James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume
+  Desjardins, Andrei~A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka
+  Grabska-Barwinska, et~al.
+\newblock Overcoming catastrophic forgetting in neural networks.
+\newblock {\em Proceedings of the national academy of sciences},
+  114(13):3521--3526, 2017.
+
+\bibitem{kocmi2023large}
+Tom Kocmi and Christian Federmann.
+\newblock Large language models are state-of-the-art evaluators of translation
+  quality.
+\newblock {\em arXiv preprint arXiv:2302.14520}, 2023.
+
+\bibitem{kong2020calibrated}
+Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao, and Chao Zhang.
+\newblock Calibrated language model fine-tuning for in-and out-of-distribution
+  data.
+\newblock {\em arXiv preprint arXiv:2010.11506}, 2020.
+
+\bibitem{kwiatkowski2019natural}
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur
+  Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin,
+  Kenton Lee, et~al.
+\newblock Natural questions: a benchmark for question answering research.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  7:453--466, 2019.
+
+\bibitem{lai2021machine}
+Yuxuan Lai, Chen Zhang, Yansong Feng, Quzhe Huang, and Dongyan Zhao.
+\newblock Why machine reading comprehension models learn shortcuts?
+\newblock In {\em Findings of the Association for Computational Linguistics:
+  ACL-IJCNLP 2021}, pages 989--1002, 2021.
+
+\bibitem{lample2019cross}
+Guillaume Lample and Alexis Conneau.
+\newblock Cross-lingual language model pretraining.
+\newblock {\em arXiv}, 2019.
+
+\bibitem{lan2019albert}
+Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and
+  Radu Soricut.
+\newblock Albert: A lite bert for self-supervised learning of language
+  representations.
+\newblock {\em arXiv}, 2019.
+
+\bibitem{lee2022meta}
+Hung-Yi Lee, Shang-Wen Li, and Thang Vu.
+\newblock Meta learning for natural language processing: A survey.
+\newblock In {\em Proceedings of the 2022 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 666--684, 2022.
+
+\bibitem{lee2020biobert}
+Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan~Ho So,
+  and Jaewoo Kang.
+\newblock Biobert: a pre-trained biomedical language representation model for
+  biomedical text mining.
+\newblock {\em Bioinformatics}, 36(4):1234--1240, 2020.
+
+\bibitem{li2021prefix}
+Xiang~Lisa Li and Percy Liang.
+\newblock Prefix-tuning: Optimizing continuous prompts for generation.
+\newblock {\em arXiv preprint arXiv:2101.00190}, 2021.
+
+\bibitem{liang2022holistic}
+Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu,
+  Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar,
+  et~al.
+\newblock Holistic evaluation of language models.
+\newblock {\em arXiv preprint arXiv:2211.09110}, 2022.
+
+\bibitem{lin2004rouge}
+Chin-Yew Lin.
+\newblock Rouge: A package for automatic evaluation of summaries.
+\newblock In {\em Text summarization branches out}, pages 74--81, 2004.
+
+\bibitem{ling2017program}
+Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom.
+\newblock Program induction by rationale generation: Learning to solve and
+  explain algebraic word problems.
+\newblock {\em arXiv preprint arXiv:1705.04146}, 2017.
+
+\bibitem{liu2021p2}
+Xiao Liu, Kaixuan Ji, Yicheng Fu, Zhengxiao Du, Zhilin Yang, and Jie Tang.
+\newblock P-tuning v2: Prompt tuning can be comparable to fine-tuning
+  universally across scales and tasks.
+\newblock {\em arXiv preprint arXiv:2110.07602}, 2021.
+
+\bibitem{liu2022p}
+Xiao Liu, Kaixuan Ji, Yicheng Fu, Weng Tam, Zhengxiao Du, Zhilin Yang, and Jie
+  Tang.
+\newblock P-tuning: Prompt tuning can be comparable to fine-tuning across
+  scales and tasks.
+\newblock In {\em Proceedings of the 60th Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)}, pages 61--68, 2022.
+
+\bibitem{liu2023gpteval}
+Yang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu.
+\newblock Gpteval: Nlg evaluation using gpt-4 with better human alignment,
+  2023.
+
+\bibitem{liu2019roberta}
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+  Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov.
+\newblock Roberta: A robustly optimized bert pretraining approach.
+\newblock {\em arXiv preprint arXiv:1907.11692}, 2019.
+
+\bibitem{liu2022brio}
+Yixin Liu, Pengfei Liu, Dragomir Radev, and Graham Neubig.
+\newblock Brio: Bringing order to abstractive summarization.
+\newblock {\em arXiv preprint arXiv:2203.16804}, 2022.
+
+\bibitem{longpre2023flan}
+Shayne Longpre, Le~Hou, Tu~Vu, Albert Webson, Hyung~Won Chung, Yi~Tay, Denny
+  Zhou, Quoc~V Le, Barret Zoph, Jason Wei, et~al.
+\newblock The flan collection: Designing data and methods for effective
+  instruction tuning.
+\newblock {\em arXiv preprint arXiv:2301.13688}, 2023.
+
+\bibitem{lu2022fantastically}
+Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, and Pontus Stenetorp.
+\newblock Fantastically ordered prompts and where to find them: Overcoming
+  few-shot prompt order sensitivity.
+\newblock In {\em Proceedings of the 60th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 8086--8098, 2022.
+
+\bibitem{maas2011learning}
+Andrew Maas, Raymond~E Daly, Peter~T Pham, Dan Huang, Andrew~Y Ng, and
+  Christopher Potts.
+\newblock Learning word vectors for sentiment analysis.
+\newblock In {\em Proceedings of the 49th annual meeting of the association for
+  computational linguistics: Human language technologies}, pages 142--150,
+  2011.
+
+\bibitem{mckenzie2022round2}
+Ian McKenzie, Alexander Lyzhov, Alicia Parrish, Ameya Prabhu, Aaron Mueller,
+  Najoung Kim, Sam Bowman, and Ethan Perez.
+\newblock Inverse scaling prize: Second round winners, 2023.
+
+\bibitem{nallapati2016abstractive}
+Ramesh Nallapati, Bowen Zhou, Caglar Gulcehre, Bing Xiang, et~al.
+\newblock Abstractive text summarization using sequence-to-sequence rnns and
+  beyond.
+\newblock {\em arXiv preprint arXiv:1602.06023}, 2016.
+
+\bibitem{narayan2018don}
+Shashi Narayan, Shay~B Cohen, and Mirella Lapata.
+\newblock Don't give me the details, just the summary! topic-aware
+  convolutional neural networks for extreme summarization.
+\newblock {\em arXiv preprint arXiv:1808.08745}, 2018.
+
+\bibitem{nguyen2016ms}
+Tri Nguyen, Mir Rosenberg, Xia Song, Jianfeng Gao, Saurabh Tiwary, Rangan
+  Majumder, and Li~Deng.
+\newblock Ms marco: A human generated machine reading comprehension dataset.
+\newblock {\em choice}, 2640:660, 2016.
+
+\bibitem{nie2019adversarial}
+Yixin Nie, Adina Williams, Emily Dinan, Mohit Bansal, Jason Weston, and Douwe
+  Kiela.
+\newblock Adversarial nli: A new benchmark for natural language understanding.
+\newblock {\em arXiv preprint arXiv:1910.14599}, 2019.
+
+\bibitem{openai2023gpt4-sys}
+OpenAI.
+\newblock Gpt-4 system card.
+
+\bibitem{openai2023gpt4}
+OpenAI.
+\newblock Gpt-4 technical report, 2023.
+
+\bibitem{ouyang2022training}
+Long Ouyang, Jeffrey Wu, Xu~Jiang, Diogo Almeida, Carroll Wainwright, Pamela
+  Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et~al.
+\newblock Training language models to follow instructions with human feedback.
+\newblock {\em Advances in Neural Information Processing Systems},
+  35:27730--27744, 2022.
+
+\bibitem{papineni2002bleu}
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu.
+\newblock Bleu: a method for automatic evaluation of machine translation.
+\newblock In {\em Proceedings of the 40th annual meeting of the Association for
+  Computational Linguistics}, pages 311--318, 2002.
+
+\bibitem{patel2021nlp}
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal.
+\newblock Are nlp models really able to solve simple math word problems?
+\newblock {\em arXiv preprint arXiv:2103.07191}, 2021.
+
+\bibitem{peters2018deep}
+Matthew~E Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+  Kenton Lee, and Luke Zettlemoyer.
+\newblock Deep contextualized word representations.
+\newblock {\em arXiv}, 2018.
+
+\bibitem{qin2023chatgpt}
+Chengwei Qin, Aston Zhang, Zhuosheng Zhang, Jiaao Chen, Michihiro Yasunaga, and
+  Diyi Yang.
+\newblock Is chatgpt a general-purpose natural language processing task solver?
+\newblock {\em arXiv preprint arXiv:2302.06476}, 2023.
+
+\bibitem{qiu2022adversarial}
+Shilin Qiu, Qihe Liu, Shijie Zhou, and Wen Huang.
+\newblock Adversarial attack and defense technologies in natural language
+  processing: A survey.
+\newblock {\em Neurocomputing}, 492:278--307, 2022.
+
+\bibitem{rae2021scaling}
+Jack~W Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann,
+  Francis Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young,
+  et~al.
+\newblock Scaling language models: Methods, analysis \& insights from training
+  gopher.
+\newblock {\em arXiv preprint arXiv:2112.11446}, 2021.
+
+\bibitem{2020t5}
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+  Matena, Yanqi Zhou, Wei Li, and Peter~J. Liu.
+\newblock Exploring the limits of transfer learning with a unified text-to-text
+  transformer.
+\newblock {\em Journal of Machine Learning Research}, 21(140):1--67, 2020.
+
+\bibitem{raffel2020exploring}
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+  Matena, Yanqi Zhou, Wei Li, and Peter~J Liu.
+\newblock Exploring the limits of transfer learning with a unified text-to-text
+  transformer.
+\newblock {\em The Journal of Machine Learning Research}, 21(1):5485--5551,
+  2020.
+
+\bibitem{rajpurkar2018know}
+Pranav Rajpurkar, Robin Jia, and Percy Liang.
+\newblock Know what you don't know: Unanswerable questions for squad.
+\newblock {\em arXiv preprint arXiv:1806.03822}, 2018.
+
+\bibitem{reddy2019coqa}
+Siva Reddy, Danqi Chen, and Christopher~D Manning.
+\newblock Coqa: A conversational question answering challenge.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  7:249--266, 2019.
+
+\bibitem{ruder2019transfer}
+Sebastian Ruder, Matthew Peters, Swabha Swayamdipta, and Thomas Wolf.
+\newblock Transfer learning in natural language processing tutorial.
+\newblock {\em NAACL HTL 2019}, page~15, 2019.
+
+\bibitem{sang2003introduction}
+Erik~F Sang and Fien De~Meulder.
+\newblock Introduction to the conll-2003 shared task: Language-independent
+  named entity recognition.
+\newblock {\em arXiv preprint cs/0306050}, 2003.
+
+\bibitem{sanh2019distilbert}
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf.
+\newblock Distilbert, a distilled version of bert: smaller, faster, cheaper and
+  lighter.
+\newblock {\em arXiv}, 2019.
+
+\bibitem{sanh2021multitask}
+Victor Sanh, Albert Webson, Colin Raffel, Stephen~H Bach, Lintang Sutawika,
+  Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven~Le Scao, Arun Raja,
+  et~al.
+\newblock Multitask prompted training enables zero-shot task generalization.
+\newblock {\em arXiv preprint arXiv:2110.08207}, 2021.
+
+\bibitem{scao2022bloom}
+Teven~Le Scao, Angela Fan, Christopher Akiki, Ellie Pavlick, Suzana Ili{\'c},
+  Daniel Hesslow, Roman Castagn{\'e}, Alexandra~Sasha Luccioni, Fran{\c{c}}ois
+  Yvon, Matthias Gall{\'e}, et~al.
+\newblock Bloom: A 176b-parameter open-access multilingual language model.
+\newblock {\em arXiv preprint arXiv:2211.05100}, 2022.
+
+\bibitem{smith2022using}
+Shaden Smith, Mostofa Patwary, Brandon Norick, Patrick LeGresley, Samyam
+  Rajbhandari, Jared Casper, Zhun Liu, Shrimai Prabhumoye, George Zerveas,
+  Vijay Korthikanti, et~al.
+\newblock Using deepspeed and megatron to train megatron-turing nlg 530b, a
+  large-scale generative language model.
+\newblock {\em arXiv preprint arXiv:2201.11990}, 2022.
+
+\bibitem{socher2013recursive}
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher~D Manning,
+  Andrew~Y Ng, and Christopher Potts.
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In {\em Proceedings of the 2013 conference on empirical methods in
+  natural language processing}, pages 1631--1642, 2013.
+
+\bibitem{soltan2022alexatm}
+Saleh Soltan, Shankar Ananthakrishnan, Jack FitzGerald, Rahul Gupta, Wael
+  Hamza, Haidar Khan, Charith Peris, Stephen Rawls, Andy Rosenbaum, Anna
+  Rumshisky, et~al.
+\newblock Alexatm 20b: Few-shot learning using a large-scale multilingual
+  seq2seq model.
+\newblock {\em arXiv preprint arXiv:2208.01448}, 2022.
+
+\bibitem{srivastava2022beyond}
+Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, Abu Awal~Md Shoeb, Abubakar
+  Abid, Adam Fisch, Adam~R Brown, Adam Santoro, Aditya Gupta, Adri{\`a}
+  Garriga-Alonso, et~al.
+\newblock Beyond the imitation game: Quantifying and extrapolating the
+  capabilities of language models.
+\newblock {\em arXiv preprint arXiv:2206.04615}, 2022.
+
+\bibitem{tang2023science}
+Ruixiang Tang, Yu-Neng Chuang, and Xia Hu.
+\newblock The science of detecting llm-generated texts.
+\newblock {\em arXiv preprint arXiv:2303.07205}, 2023.
+
+\bibitem{tang2021mitigating}
+Ruixiang Tang, Mengnan Du, Yuening Li, Zirui Liu, Na~Zou, and Xia Hu.
+\newblock Mitigating gender bias in captioning systems.
+\newblock In {\em Proceedings of the Web Conference 2021}, pages 633--645,
+  2021.
+
+\bibitem{tang2023does}
+Ruixiang Tang, Xiaotian Han, Xiaoqian Jiang, and Xia Hu.
+\newblock Does synthetic data generation of llms help clinical text mining?
+\newblock {\em arXiv preprint arXiv:2303.04360}, 2023.
+
+\bibitem{alpaca}
+Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos
+  Guestrin, Percy Liang, and Tatsunori~B. Hashimoto.
+\newblock Stanford alpaca: An instruction-following llama model.
+\newblock \url{https://github.com/tatsu-lab/stanford_alpaca}, 2023.
+
+\bibitem{tchango2022ddxplus}
+Arsene~Fansi Tchango, Rishab Goel, Zhi Wen, Julien Martel, and Joumana Ghosn.
+\newblock Ddxplus: A new dataset for automatic medical diagnosis.
+\newblock {\em Proceedings of the Neural Information Processing Systems-Track
+  on Datasets and Benchmarks}, 2, 2022.
+
+\bibitem{thoppilan2022lamda}
+Romal Thoppilan, Daniel De~Freitas, Jamie Hall, Noam Shazeer, Apoorv
+  Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu~Du,
+  et~al.
+\newblock Lamda: Language models for dialog applications.
+\newblock {\em arXiv preprint arXiv:2201.08239}, 2022.
+
+\bibitem{meta2023llama}
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+  Lachaux, Timothee Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro,
+  Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume
+  Lample.
+\newblock Llama: Open and efficient foundation language models.
+\newblock 2023.
+
+\bibitem{uesato2022solving}
+Jonathan Uesato, Nate Kushman, Ramana Kumar, Francis Song, Noah Siegel, Lisa
+  Wang, Antonia Creswell, Geoffrey Irving, and Irina Higgins.
+\newblock Solving math word problems with process-and outcome-based feedback.
+\newblock {\em arXiv preprint arXiv:2211.14275}, 2022.
+
+\bibitem{wang2019superglue}
+Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael,
+  Felix Hill, Omer Levy, and Samuel Bowman.
+\newblock Superglue: A stickier benchmark for general-purpose language
+  understanding systems.
+\newblock {\em Advances in neural information processing systems}, 32, 2019.
+
+\bibitem{wang2018glue}
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel~R
+  Bowman.
+\newblock Glue: A multi-task benchmark and analysis platform for natural
+  language understanding.
+\newblock {\em arXiv preprint arXiv:1804.07461}, 2018.
+
+\bibitem{mesh-transformer-jax}
+Ben Wang.
+\newblock {Mesh-Transformer-JAX: Model-Parallel Implementation of Transformer
+  Language Model with JAX}.
+\newblock \url{https://github.com/kingoflolz/mesh-transformer-jax}, May 2021.
+
+\bibitem{wang2023chatgpt}
+Jiaan Wang, Yunlong Liang, Fandong Meng, Haoxiang Shi, Zhixu Li, Jinan Xu,
+  Jianfeng Qu, and Jie Zhou.
+\newblock Is chatgpt a good nlg evaluator? a preliminary study.
+\newblock {\em arXiv preprint arXiv:2303.04048}, 2023.
+
+\bibitem{wang2023robustness}
+Jindong Wang, Xixu Hu, Wenxin Hou, Hao Chen, Runkai Zheng, Yidong Wang, Linyi
+  Yang, Haojun Huang, Wei Ye, Xiubo Geng, et~al.
+\newblock On the robustness of chatgpt: An adversarial and out-of-distribution
+  perspective.
+\newblock {\em arXiv preprint arXiv:2302.12095}, 2023.
+
+\bibitem{wang2022image}
+Wenhui Wang, Hangbo Bao, Li~Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti
+  Aggarwal, Owais~Khan Mohammed, Saksham Singhal, Subhojit Som, et~al.
+\newblock Image as a foreign language: Beit pretraining for all vision and
+  vision-language tasks.
+\newblock {\em arXiv preprint arXiv:2208.10442}, 2022.
+
+\bibitem{webson2022prompt}
+Albert Webson and Ellie Pavlick.
+\newblock Do prompt-based models really understand the meaning of their
+  prompts?
+\newblock In {\em Proceedings of the 2022 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 2300--2344, 2022.
+
+\bibitem{wei2021finetuned}
+Jason Wei, Maarten Bosma, Vincent~Y Zhao, Kelvin Guu, Adams~Wei Yu, Brian
+  Lester, Nan Du, Andrew~M Dai, and Quoc~V Le.
+\newblock Finetuned language models are zero-shot learners.
+\newblock {\em arXiv preprint arXiv:2109.01652}, 2021.
+
+\bibitem{wei2022emergent}
+Jason Wei, Yi~Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian
+  Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed~H.
+  Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, and William
+  Fedus.
+\newblock Emergent abilities of large language models.
+\newblock {\em Transactions on Machine Learning Research}, 2022.
+\newblock Survey Certification.
+
+\bibitem{wei2022inverse}
+Jason Wei, Yi~Tay, and Quoc~V Le.
+\newblock Inverse scaling can become u-shaped.
+\newblock {\em arXiv preprint arXiv:2211.02011}, 2022.
+
+\bibitem{wei2022chain}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed~Chi, Quoc Le, and
+  Denny Zhou.
+\newblock Chain of thought prompting elicits reasoning in large language
+  models.
+\newblock {\em arXiv preprint arXiv:2201.11903}, 2022.
+
+\bibitem{wortsman2022robust}
+Mitchell Wortsman, Gabriel Ilharco, Jong~Wook Kim, Mike Li, Simon Kornblith,
+  Rebecca Roelofs, Raphael~Gontijo Lopes, Hannaneh Hajishirzi, Ali Farhadi,
+  Hongseok Namkoong, et~al.
+\newblock Robust fine-tuning of zero-shot models.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 7959--7971, 2022.
+
+\bibitem{wu2023bloomberggpt}
+Shijie Wu, Ozan Irsoy, Steven Lu, Vadim Dabravolski, Mark Dredze, Sebastian
+  Gehrmann, Prabhanjan Kambadur, David Rosenberg, and Gideon Mann.
+\newblock Bloomberggpt: A large language model for finance.
+\newblock {\em arXiv preprint arXiv:2303.17564}, 2023.
+
+\bibitem{yang-etal-2021-multilingual-machine}
+Jian Yang, Shuming Ma, Haoyang Huang, Dongdong Zhang, Li~Dong, Shaohan Huang,
+  Alexandre Muzio, Saksham Singhal, Hany Hassan, Xia Song, and Furu Wei.
+\newblock Multilingual machine translation systems from {M}icrosoft for {WMT}21
+  shared task.
+\newblock In {\em Proceedings of the Sixth Conference on Machine Translation},
+  pages 446--455, Online, November 2021. Association for Computational
+  Linguistics.
+
+\bibitem{yang2019xlnet}
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ~R Salakhutdinov,
+  and Quoc~V Le.
+\newblock Xlnet: Generalized autoregressive pretraining for language
+  understanding.
+\newblock {\em Advances in neural information processing systems}, 32, 2019.
+
+\bibitem{yin2019benchmarking}
+Wenpeng Yin, Jamaal Hay, and Dan Roth.
+\newblock Benchmarking zero-shot text classification: Datasets, evaluation and
+  entailment approach.
+\newblock In {\em Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 3914--3923, 2019.
+
+\bibitem{yoo2021gpt3mix}
+Kang~Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, and Woomyeong Park.
+\newblock Gpt3mix: Leveraging large-scale language models for text
+  augmentation.
+\newblock {\em arXiv preprint arXiv:2104.08826}, 2021.
+
+\bibitem{yuan2023llm}
+Jiayi Yuan, Ruixiang Tang, Xiaoqian Jiang, and Xia Hu.
+\newblock Llm for patient-trial matching: Privacy-aware data augmentation
+  towards better performance and generalizability.
+\newblock {\em arXiv preprint arXiv:2303.16756}, 2023.
+
+\bibitem{zeng2022glm}
+Aohan Zeng, Xiao Liu, Zhengxiao Du, Zihan Wang, Hanyu Lai, Ming Ding, Zhuoyi
+  Yang, Yifan Xu, Wendi Zheng, Xiao Xia, et~al.
+\newblock Glm-130b: An open bilingual pre-trained model.
+\newblock {\em arXiv preprint arXiv:2210.02414}, 2022.
+
+\bibitem{zha2023data}
+Daochen Zha, Zaid~Pervaiz Bhat, Kwei-Herng Lai, Fan Yang, Zhimeng Jiang,
+  Shaochen Zhong, and Xia Hu.
+\newblock Data-centric artificial intelligence: A survey.
+\newblock {\em arXiv preprint arXiv:2303.10158}, 2023.
+
+\bibitem{zhang2020pegasus}
+Jingqing Zhang, Yao Zhao, Mohammad Saleh, and Peter Liu.
+\newblock Pegasus: Pre-training with extracted gap-sentences for abstractive
+  summarization.
+\newblock In {\em International Conference on Machine Learning}, pages
+  11328--11339. PMLR, 2020.
+
+\bibitem{zhang2022opt}
+Susan Zhang, Stephen Roller, Naman Goyal, Mikel Artetxe, Moya Chen, Shuohui
+  Chen, Christopher Dewan, Mona Diab, Xian Li, Xi~Victoria Lin, et~al.
+\newblock Opt: Open pre-trained transformer language models.
+\newblock {\em arXiv preprint arXiv:2205.01068}, 2022.
+
+\bibitem{zhang2023benchmarking}
+Tianyi Zhang, Faisal Ladhak, Esin Durmus, Percy Liang, Kathleen McKeown, and
+  Tatsunori~B Hashimoto.
+\newblock Benchmarking large language models for news summarization.
+\newblock {\em arXiv preprint arXiv:2301.13848}, 2023.
+
+\bibitem{zhao2023survey}
+Wayne~Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou,
+  Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, et~al.
+\newblock A survey of large language models.
+\newblock {\em arXiv preprint arXiv:2303.18223}, 2023.
+
+\bibitem{zhao2021calibrate}
+Zihao Zhao, Eric Wallace, Shi Feng, Dan Klein, and Sameer Singh.
+\newblock Calibrate before use: Improving few-shot performance of language
+  models.
+\newblock In {\em International Conference on Machine Learning}, pages
+  12697--12706. PMLR, 2021.
+
+\bibitem{zhong2023can}
+Qihuang Zhong, Liang Ding, Juhua Liu, Bo~Du, and Dacheng Tao.
+\newblock Can chatgpt understand too? a comparative study on chatgpt and
+  fine-tuned bert.
+\newblock {\em arXiv preprint arXiv:2302.10198}, 2023.
+
+\bibitem{zhou2023comprehensive}
+Ce~Zhou, Qian Li, Chen Li, Jun Yu, Yixin Liu, Guangjing Wang, Kai Zhang, Cheng
+  Ji, Qiben Yan, Lifang He, et~al.
+\newblock A comprehensive survey on pretrained foundation models: A history
+  from bert to chatgpt.
+\newblock {\em arXiv preprint arXiv:2302.09419}, 2023.
+
+\bibitem{zhou2022domain}
+Kaiyang Zhou, Ziwei Liu, Yu~Qiao, Tao Xiang, and Chen~Change Loy.
+\newblock Domain generalization: A survey.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  2022.
+
+\bibitem{zoph2202st}
+Barret Zoph, Irwan Bello, Sameer Kumar, Nan Du, Yanping Huang, Jeff Dean, Noam
+  Shazeer, and William Fedus.
+\newblock St-moe: Designing stable and transferable sparse expert models.
+\newblock {\em URL https://arxiv. org/abs/2202.08906}.
+
+\end{thebibliography}

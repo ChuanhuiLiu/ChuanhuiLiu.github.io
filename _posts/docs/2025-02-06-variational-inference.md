@@ -1,21 +1,26 @@
 ---
-title: "Variational Inference for LLM?"
-last_modified_at: 2025-02-07
+title: "Variational Inference for SFT in LLM"
+last_modified_at: 2025-02-18
 header:
   teaser: "/assets/images/illustration/VI+LM.png"
-excerpt: "Summary of ICLR 2024 oral paper 'Amortizing Intractable Inference in Large Language Models'"
+excerpt: "Summary of ICLR 2024 oral: 'Amortizing Intractable Inference in Large Language Models'"
 permalink: /:categories/:title/
 breadcrumbs: true
 categories:
   - Notes
-tags:
+tags: 
   - LLM
   - Variational Inference
 toc: true
 ---
 
+TL;DR:  A novel method for fine-tuning large language models (LLMs) to sample from intractable posterior distributions using amortized Bayesian inference and Generative Flow Networks.
+
 ### 1.Introduction
-Large Language Models (LLMs) are trained to predict the next token in a sequence, effectively compressing vast amounts of knowledge. However, they struggle with certain tasks that require more sophisticated inference, such as sequence continuation, infilling, and constrained generation, due to the **intractability** of posterior distributions. This paper proposes using **amortized Bayesian inference** through a noval **Generative Flow Networks (GFlowNets)** to address these challenges.
+Autoregressive LLMs are limited to generating text via start-to-end token prediction, making tasks like constrained generation (e.g., infilling, sequence continuation) or multi-step reasoning intractable due to the **computational complexity** of sampling from posterior distributions. For example, chain-of-thought reasoning involves inferring latent reasoning steps, which traditional methods like MCMC or reinforcement learning (RL) struggle to handle efficiently
+
+The core idea introduces GFlowNet fine-tuning, a diversity-seeking reinforcement learning framework, to amortize inference over intractable posteriors. By training LLMs to match target distributions (e.g., uniform sampling in constrained tasks), this method avoids mode collapse common in RL approaches like PPO and improves sample diversity.
+
 
 ### 2.Problem: Intractable Posterior Inference in LLMs
 LLMs model the probability of a sequence $x$ as:
@@ -50,11 +55,15 @@ The method achieves **higher diversity and generalization** than baseline approa
 - **Story infilling**: Outperforms supervised fine-tuning with better BLEU and BERTScore metrics.
 - **Arithmetic reasoning**: Shows a **63% improvement** over PPO fine-tuning in generalization to out-of-distribution problems.
 - **Subjectivity classification**: Achieves **10.9% higher accuracy** than supervised fine-tuning with only 10 labeled examples.
+- **Scalability**: effective sampling from a 6B-parameter LLM, highlighting practical applicability
 
-### 5.Conclusion and Future Work
-GFlowNet fine-tuning enables LLMs to perform complex inference efficiently, addressing the limitations of existing methods. The authors suggest future directions, including:
+### 5.Contributions and Future Work
+This work provides a principled alternative to maximum-likelihood training and reward maximization, emphasizing distribution matching over point estimates. The proposed GFlowNet fine-tuning enables LLMs to perform complex inference efficiently, addressing the limitations of existing methods. 
+
+The authors suggest future directions, including:
 - **Developing universal reasoning models** that generalize across multiple tasks.
 - **Improving knowledge representation** to mitigate hallucinations and biases.
 - **Extending probabilistic programming techniques** to structured reasoning.
 
-This work highlights a promising direction for making LLMs more **efficient, diverse, and adaptable** in real-world applications.
+For further details, refer to the [ICLR presentation](https://iclr.cc/virtual/2024/oral/19763) or [full text](https://openreview.net/forum?id=Ouj6p4ca60)
+
