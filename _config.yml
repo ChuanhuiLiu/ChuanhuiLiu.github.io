@@ -14,20 +14,31 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Chuanhui Liu" 
-masthead_title: "Liudology" # the title for memasthead
-subtitle: "blog and portfolio"
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Chuanhui Liu's blog and portfolio.
-minimal_mistakes_skin: "sunrise"
+masthead_title: " "
+# subtitle: "blog and portfolio"
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Welcome to Chuanhui Liu's blog and portfolio.
+minimal_mistakes_skin: "dirt"
 minimal_mistakes_skin2: "dark"
-search: false
+search: true
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-FEKVEJ7H3D"
 # Build settings
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  math_engine: mathjax
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+webrick:
+  mime_types:
+    video/mp4: [mp4]
+    video/webm: [webm]
+
 # Outputting
 
 include:
@@ -53,25 +64,16 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-admin
 
 author:
   name   : "Chuanhui Liu"
   avatar : "/assets/images/bio-photo.png"
-  bio    : Ph.D candicate of Statistics. 
-  location: "West Lafayett, IN"
-  links:
-    - label: "Purdue University"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://www.stat.purdue.edu/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:liu2306@purdue.edu"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
-      url: "https://scholar.google.com/citations?user=_8YRuSsAAAAJ&hl=en"
+  bio    : "Email: chuanhui.liu1994@gmail.com"
+  location : "Indianapolis, IN"
   linkedin: /chuanhuiliu 
   github: /ChuanhuiLiu
-logo: "/assets/images/logo.jpg"
+# logo: "/assets/images/logo.jpg" logo for masthead
 
 footer:
   links:
@@ -108,9 +110,20 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _tools
+  - scope:
+      path: ""
+      type: tools
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 collections:
   portfolio:
+    output: true
+    permalink: /:collection/:path/
+  tools:
     output: true
     permalink: /:collection/:path/
 category_archive:

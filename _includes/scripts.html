@@ -31,32 +31,101 @@
   function dark_mode_btn_click() {
     var node1 = document.getElementById('theme_source');
     var node2 = document.getElementById('theme_source_2');
-    if(node1.getAttribute('rel')=='stylesheet'){
+    if (!node1 || !node2) {
+      return false;
+    }
+
+    if (node1.getAttribute('rel') == 'stylesheet') {
       node2.setAttribute('rel', 'stylesheet');
-      setTimeout(function(){
+      setTimeout(function() {
         node1.setAttribute('rel', 'stylesheet alternate');
       }, 10);
       sessionStorage.setItem('theme', 'dark');
-      sessionStorage.setItem('icon', 'fa-moon'); // Store icon state
-    }else{
+      sessionStorage.setItem('icon', 'fa-moon');
+    } else {
       node1.setAttribute('rel', 'stylesheet');
-      setTimeout(function(){
+      setTimeout(function() {
         node2.setAttribute('rel', 'stylesheet alternate');
       }, 10);
       sessionStorage.setItem('theme', 'light');
-      sessionStorage.setItem('icon', 'fa-sun'); // Store icon state
+      sessionStorage.setItem('icon', 'fa-sun');
     }
-    var savedIcon = sessionStorage.getItem('icon'); 
+
     var icon = document.querySelector('.dark_mode_btn');
-    icon.classList.toggle('fa-sun');
-    icon.classList.toggle('fa-moon');
+    if (icon) {
+      icon.classList.toggle('fa-sun');
+      icon.classList.toggle('fa-moon');
+    }
     return false;
-}
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var toggle = document.querySelector('.dark-mode__toggle');
+    if (toggle) {
+      toggle.addEventListener('click', function(event) {
+        event.preventDefault();
+        dark_mode_btn_click();
+      });
+    }
+  });
 </script>
-<style>
-.dark_mode_btn_click{
-  font-size: 30px; /* Adjust icon size */
-  cursor: pointer; /* Makes it clickable */
-  border-left: 2px solid #ccc; /*add a vertical line*/
-}
-</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var body = document.body;
+    if (!body || (!body.classList.contains('categories-page') && !body.classList.contains('tags-page'))) {
+      return;
+    }
+
+    var sections = Array.prototype.slice.call(document.querySelectorAll('.taxonomy__section'));
+    if (!sections.length) {
+      return;
+    }
+
+    var normalizeHash = function(hash) {
+      if (!hash) {
+        return '';
+      }
+      var raw = hash.charAt(0) === '#' ? hash.slice(1) : hash;
+      try {
+        return decodeURIComponent(raw);
+      } catch (error) {
+        return raw;
+      }
+    };
+
+    var backToTop = document.querySelector('.back-to-top');
+
+    var setActiveSection = function(id) {
+      var hasActive = false;
+      sections.forEach(function(section) {
+        if (id && section.id === id) {
+          section.classList.add('is-active');
+          section.style.display = 'block';
+          hasActive = true;
+        } else {
+          section.classList.remove('is-active');
+          section.style.display = 'none';
+        }
+      });
+
+      if (backToTop) {
+        backToTop.style.display = hasActive ? 'block' : 'none';
+      }
+    };
+
+    setActiveSection(normalizeHash(window.location.hash));
+
+    document.addEventListener('click', function(event) {
+      var link = event.target.closest('.taxonomy__index a');
+      if (!link || !link.hash) {
+        return;
+      }
+      setActiveSection(normalizeHash(link.hash));
+    });
+
+    window.addEventListener('hashchange', function() {
+      setActiveSection(normalizeHash(window.location.hash));
+    });
+  });
+</script>

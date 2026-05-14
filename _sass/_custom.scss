@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600;700&display=swap");
+
+.cv-page {
+  --cv-accent: #0f4c5c;
+  --cv-muted: #5f6368;
+  --cv-border: #e6e8eb;
+}
+
+.cv-page .cv-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--cv-border);
+}
+
+.cv-page .cv-name {
+  font-size: 2.2rem;
+  margin: 0 0 0.25rem;
+}
+
+.cv-page .cv-role {
+  margin: 0;
+  color: var(--cv-muted);
+  font-size: 1rem;
+}
+
+.cv-page .cv-contact {
+  text-align: right;
+  font-size: 0.95rem;
+}
+
+.cv-page .cv-contact a {
+  color: inherit;
+}
+
+.cv-page .cv-section {
+  margin: 2rem 0;
+}
+
+.cv-page .cv-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  border-left: 4px solid var(--cv-accent);
+}
+
+.cv-page .cv-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.25rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--cv-border);
+}
+
+.cv-page .cv-item:last-child {
+  border-bottom: none;
+}
+
+.cv-page .cv-date {
+  font-weight: 600;
+  color: var(--cv-muted);
+  font-size: 0.95rem;
+}
+
+.cv-page .cv-title {
+  font-weight: 600;
+}
+
+.cv-page .cv-subtitle,
+.cv-page .cv-meta {
+  color: var(--cv-muted);
+  font-size: 0.95rem;
+}
+
+.cv-page .cv-item ul {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.categories-page .taxonomy__section,
+.tags-page .taxonomy__section {
+  display: none;
+}
+
+.categories-page .taxonomy__section:target,
+.tags-page .taxonomy__section:target,
+.categories-page .taxonomy__section.is-active,
+.tags-page .taxonomy__section.is-active {
+  display: block;
+}
+
+.categories-page .back-to-top,
+.tags-page .back-to-top {
+  display: none;
+}
+
+.categories-page .taxonomy__section:target ~ .back-to-top,
+.tags-page .taxonomy__section:target ~ .back-to-top,
+.categories-page .taxonomy__section.is-active ~ .back-to-top,
+.tags-page .taxonomy__section.is-active ~ .back-to-top {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .cv-page .cv-header {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .cv-page .cv-contact {
+    text-align: left;
+  }
+
+  .cv-page .cv-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}

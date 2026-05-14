@@ -1,24 +1,25 @@
 /* ==========================================================================
    Variables
+   Global variables and configuration.
    ========================================================================== */
 
 /*
    Typography
    ========================================================================== */
 
-$doc-font-size: 14px !default;
-$doc-font-size-medium: $doc-font-size * 1.125 !default;
-$doc-font-size-large: $doc-font-size * 1.25 !default;
-$doc-font-size-x-large: $doc-font-size * 1.375 !default;
+$doc-font-size: 16px !default;
+$doc-font-size-medium: $doc-font-size * 1.0625 !default;
+$doc-font-size-large: $doc-font-size * 1.125 !default;
+$doc-font-size-x-large: $doc-font-size * 1.1875 !default;
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$serif: "IBM Plex Serif", Georgia, Times, serif !default;
+$sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Roboto",
+  "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
@@ -33,7 +34,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$header-font-family: $serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */

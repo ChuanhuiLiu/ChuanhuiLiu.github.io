@@ -35,3 +35,65 @@
   {% endfor %}
 {% endfor %}
 <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var normalizeHash = function(hash) {
+      if (!hash) {
+        return '';
+      }
+      var raw = hash.charAt(0) === '#' ? hash.slice(1) : hash;
+      try {
+        return decodeURIComponent(raw);
+      } catch (error) {
+        return raw;
+      }
+    };
+
+    var updateVisibility = function(id) {
+      var targetId = id || normalizeHash(window.location.hash);
+      var entriesBlocks = document.querySelectorAll('.taxonomy__section .entries-list, .taxonomy__section .entries-grid');
+      entriesBlocks.forEach(function(el) {
+        el.style.display = 'none';
+      });
+
+      var backToTopLinks = document.querySelectorAll('.back-to-top');
+      backToTopLinks.forEach(function(el) {
+        el.style.display = 'none';
+      });
+
+      if (!targetId) {
+        return;
+      }
+
+      var target = document.getElementById(targetId);
+      if (target && target.classList.contains('taxonomy__section')) {
+        var entries = target.querySelector('.entries-list') || target.querySelector('.entries-grid');
+        if (entries) {
+          entries.style.display = 'block';
+        }
+        backToTopLinks.forEach(function(el) {
+          el.style.display = 'block';
+        });
+      }
+    };
+
+    updateVisibility();
+
+    document.addEventListener('click', function(event) {
+      var link = event.target.closest('.taxonomy__index a');
+      if (!link || !link.hash) {
+        return;
+      }
+      updateVisibility(normalizeHash(link.hash));
+    });
+
+    window.addEventListener('hashchange', function() {
+      updateVisibility();
+    });
+
+    window.addEventListener('popstate', function() {
+      updateVisibility();
+    });
+  });
+</script>

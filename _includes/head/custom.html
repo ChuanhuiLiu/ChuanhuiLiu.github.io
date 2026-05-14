@@ -1,10 +1,26 @@
 <!-- start custom head snippets -->
  
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon/favicon-96x96.png">
-<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
-<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
-<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png?v=20260328">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png?v=20260328">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon/favicon-96x96.png?v=20260328">
+<link rel="manifest" href="/assets/images/favicon/site.webmanifest?v=20260328">
+<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico?v=20260328">
+<meta name="theme-color" content="#0f172a">
+
+<!-- MathJax 3: supports \( \) inline and \[ \] display math -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 <!-- end custom head snippets -->

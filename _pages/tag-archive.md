@@ -2,9 +2,10 @@
 title: "Posts by Tag"
 permalink: /tags/
 layout: tags
-author_profile: true
 entries_layout: grid
-classes: wide
+author_profile: false
+classes:
+  - tags-page
 sidebar:
   nav: tag_nav
 ---

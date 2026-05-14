@@ -1,5 +1,6 @@
 /* ==========================================================================
    SINGLE PAGE/POST
+   Single page and post layouts.
    ========================================================================== */
 
 #main {
@@ -408,6 +409,79 @@ body {
   }
 }
 
+.tags-page {
+  .taxonomy__index {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+    grid-template-columns: none;
+    font-size: 0.85em;
+  }
+
+  .taxonomy__index a {
+    border: 1px solid $border-color;
+    border-radius: 999px;
+    padding: 0.35em 0.75em;
+    background: $background-color;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .taxonomy__index a:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(#000, 0.08);
+  }
+
+  .taxonomy__count {
+    margin-inline-start: 0.5em;
+    padding: 0 0.5em;
+    border-radius: 999px;
+    background: $primary-color;
+    color: #fff;
+    font-size: 0.85em;
+  }
+}
+
+.categories-page {
+  .taxonomy__index {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem 1.25rem;
+    font-size: 0.85em;
+  }
+
+  .taxonomy__index a {
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    padding: 0.6em 0.8em;
+    background: $background-color;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .taxonomy__index a:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(#000, 0.08);
+  }
+
+  .taxonomy__count {
+    padding: 0 0.45em;
+    border-radius: $border-radius;
+    background: $light-gray;
+    color: $text-color;
+    font-size: 0.85em;
+  }
+
+  @include breakpoint($large) {
+    .taxonomy__index {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @include breakpoint(max-width $small) {
+    .taxonomy__index {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+}
+
 .back-to-top {
   display: block;
   clear: both;
@@ -560,5 +634,73 @@ body {
     @include breakpoint($x-large) {
       padding-inline-end: 0;
     }
+  }
+}
+
+.about-me-page {
+  line-height: 1.6;
+
+  p {
+    line-height: 1.6;
+    margin-bottom: 0.9em;
+  }
+}
+
+.publications-page {
+  .page__content {
+    font-size: 1.1em;
+
+    li {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.publications-page {
+  .publications__list {
+    margin: 1.5rem 0 0;
+    padding: 0;
+    list-style: decimal;
+  }
+
+  .publications__item {
+    padding: 0.75rem 0 1rem;
+    border-bottom: 1px solid $border-color;
+  }
+
+  .publications__title {
+    font-weight: 600;
+    font-size: 1.05em;
+  }
+
+  .publications__title a {
+    text-decoration: none;
+  }
+
+  .publications__title a:hover {
+    text-decoration: underline;
+  }
+
+  .publications__authors {
+    margin-top: 0.35rem;
+    color: $text-color;
+  }
+
+  .publications__venue {
+    margin-top: 0.15rem;
+    color: $muted-text-color;
+    font-style: italic;
+  }
+
+  .publications__links {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.75rem;
+    font-size: $type-size-6;
+  }
+
+  .publications__links a {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 }

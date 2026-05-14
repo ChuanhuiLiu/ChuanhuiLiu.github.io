@@ -1,5 +1,6 @@
 /* ==========================================================================
    BUTTONS
+   Button styles and variations.
    ========================================================================== */
 
 /*
@@ -104,5 +105,56 @@
   /* active button with vanishing bottom border*/
   &--tab-inactive {
     border-bottom: 2px solid $border-color !important; /* Highlight active tab */
+  }
+}
+
+/*
+   Masthead toggles
+   ========================================================================== */
+
+.search__toggle,
+.dark-mode__toggle {
+  margin-inline: 1rem;
+  height: $nav-toggle-height;
+  border: 0;
+  outline: none;
+  color: $primary-color;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.search__toggle:hover,
+.dark-mode__toggle:hover {
+  color: mix(#000, $primary-color, 25%);
+}
+
+.dark_mode_btn {
+  font-size: $type-size-5;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.masthead__menu-item--icon {
+  display: flex;
+  align-items: center;
+
+  .search__toggle,
+  .dark-mode__toggle {
+    margin-inline: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+  }
+
+  .search__toggle i,
+  .dark_mode_btn {
+    font-size: $type-size-5;
+  }
+
+  .dark-mode__toggle {
+    margin-inline-start: 0.5rem;
   }
 }

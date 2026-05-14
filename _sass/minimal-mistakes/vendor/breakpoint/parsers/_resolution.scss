@@ -1,3 +1,7 @@
+/* ==========================================================================
+   BREAKPOINT RESOLUTION PARSER
+   ========================================================================== */
+
 @import "resolution/resolution";
 
 @function breakpoint-build-resolution($query-print, $query-resolution, $empty-media, $first) {

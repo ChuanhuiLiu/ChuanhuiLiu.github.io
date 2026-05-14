@@ -1,24 +1,43 @@
-/* Copyright comment */
+/*!
+ * Minimal Mistakes Jekyll Theme
+ * Main SCSS entry point. Imports all partials and modules.
+ */
+
+/* ==========================================================================
+   COPYRIGHT
+   ========================================================================== */
 @import "minimal-mistakes/copyright";
 
-/* Variables */
+/* ==========================================================================
+   VARIABLES
+   Global variables and configuration.
+   ========================================================================== */
 @import "minimal-mistakes/variables";
 
-/* Mixins and functions */
+/* ==========================================================================
+   MIXINS AND FUNCTIONS
+   Vendor libraries and custom mixins.
+   ========================================================================== */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
 @import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
 @import "minimal-mistakes/vendor/susy/susy";
 @import "minimal-mistakes/mixins";
 
-/* Core CSS */
+/* ==========================================================================
+   CORE CSS
+   Base styles, resets, and fundamental elements.
+   ========================================================================== */
 @import "minimal-mistakes/reset";
 @import "minimal-mistakes/base";
 @import "minimal-mistakes/forms";
 @import "minimal-mistakes/tables";
 @import "minimal-mistakes/animations";
 
-/* Components */
+/* ==========================================================================
+   COMPONENTS
+   UI components and modules.
+   ========================================================================== */
 @import "minimal-mistakes/buttons";
 @import "minimal-mistakes/notices";
 @import "minimal-mistakes/masthead";
@@ -27,11 +46,22 @@
 @import "minimal-mistakes/search";
 @import "minimal-mistakes/syntax";
 
-/* Utility classes */
+/* ==========================================================================
+   UTILITY CLASSES
+   Helper classes.
+   ========================================================================== */
 @import "minimal-mistakes/utilities";
 
-/* Layout specific */
+/* ==========================================================================
+   LAYOUT SPECIFIC
+   Page and archive layouts.
+   ========================================================================== */
 @import "minimal-mistakes/page";
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+/* ==========================================================================
+   CUSTOM
+   ========================================================================== */
+@import "custom";

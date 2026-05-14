@@ -1,5 +1,6 @@
 /* ==========================================================================
    MASTHEAD
+   Site header and navigation styles.
    ========================================================================== */
 
 .masthead {
@@ -36,11 +37,6 @@
       text-decoration: none;
     }
   }
-}
-.dark_mode_btn {
-  font-size: $type-size-4; /* Adjust icon size */
-  cursor: pointer; /* Change cursor to pointer */
-  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 .site-logo img {
   max-height: 2rem;
@@ -93,4 +89,3 @@
     font-weight: 700;
   }
 }
-

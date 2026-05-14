@@ -22,12 +22,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/main2.css' | relative_url }}" id="theme_source_2">
   <script>
     if (sessionStorage.getItem('theme') === null) {
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        sessionStorage.setItem('theme', 'dark');
-      }
-      else{
-        sessionStorage.setItem('theme', 'light');
-      }
+      sessionStorage.setItem('theme', 'light');
     }
 
     let theme = sessionStorage.getItem('theme');
